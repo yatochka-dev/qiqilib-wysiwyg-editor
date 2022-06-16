@@ -3,6 +3,8 @@
 
 const elements = document.querySelectorAll(".rte__button");
 const content = document.querySelector('.rte__content')
+const getHTML = document.querySelector(".rte__getHTML");
+const output = document.querySelector(".rte__output");
 
 for (let element of elements) {
     let command = element.dataset["style"]
@@ -25,3 +27,10 @@ for (let element of elements) {
 
     element.addEventListener("click", clicked)
 }
+
+getHTML.addEventListener("click", () => {
+
+    var s = content.innerHTML;
+    output.innerHTML = s;
+
+})

@@ -5,17 +5,19 @@
 }
 
 .wrapper {
-  min-height: 2000px;
+    min-height: 2000px;
+    background-color: #ffffff;
 }
 
 .rte__body {
-  width: 500px;
-  max-width: 500px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    width: 500px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.19);
 }
 
 .rte__header {
@@ -46,17 +48,31 @@
   min-height: 200px;
   width: 500px;
   max-width: 500px;
-  outline: none;
-  border: 1px solid #bebdbd;
-  border-top: none;
-  padding: 12px;
-  text-align: left;
+    outline: none;
+    border: 1px solid #bebdbd;
+    border-top: none;
+    padding: 12px;
+    text-align: left;
 }
+
 .rte__content :focus {
-  border: 1px solid #4c4c4c;
+    border: 1px solid #4c4c4c;
 }
+
 .rte__content img {
-  max-width: 480px;
+    max-width: 476px;
+}
+
+.rte__output {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.13);
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 400px;
+    padding: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */
